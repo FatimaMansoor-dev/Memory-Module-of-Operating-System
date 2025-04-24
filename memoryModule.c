@@ -12,6 +12,7 @@ typedef struct {
     int allocated;   // Flag to mark if process has been allocated
 } Process;
 
+// Function for pretty printing >~<
 void print_frames(int *memory, int num_frames) {
     // Print top border
     for (int i = 0; i < num_frames; i++) {
